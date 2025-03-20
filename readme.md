@@ -6,6 +6,7 @@ Readme:
 
 - Стек - C# (Blazor + Entity Framework Core). БД Postgres, запускалась в контейнере Docker. 
 REST API для проекта написан с помощью ASP.NET Core Web API
+
 Надеюсь, Вам понравится)
 Внизу прилагаю гифку с работой проекта
 
