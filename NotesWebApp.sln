@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesWebApp", "NotesWebApp\NotesWebApp\NotesWebApp.csproj", "{E64CFBBC-BC99-494F-AD1D-A7CDCEEC293C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesWebApp.Client", "NotesWebApp\NotesWebApp.Client\NotesWebApp.Client.csproj", "{BE6D18C0-C15C-4C95-AFEF-65FADC3D8DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{B35D2AF3-D72D-4BAC-8F36-A54A1E65525E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{E738C973-7358-41F9-9835-E6F657162E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{F673A268-0EDA-47C7-B77A-7522BC71333B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{35856A25-BE6C-4008-A70D-84788E27282B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesWebApp.Shared", "NotesWebApp.Shared\NotesWebApp.Shared.csproj", "{3BAC80FF-DA9B-4B14-A117-E493B7CA7938}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_readme+видео", "_readme+видео", "{0D191778-0EA9-47EF-ACD3-441EAE42299D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+		..\..\..\Downloads\Работа_приложения.mp4 = ..\..\..\Downloads\Работа_приложения.mp4
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E64CFBBC-BC99-494F-AD1D-A7CDCEEC293C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64CFBBC-BC99-494F-AD1D-A7CDCEEC293C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64CFBBC-BC99-494F-AD1D-A7CDCEEC293C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64CFBBC-BC99-494F-AD1D-A7CDCEEC293C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6D18C0-C15C-4C95-AFEF-65FADC3D8DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6D18C0-C15C-4C95-AFEF-65FADC3D8DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6D18C0-C15C-4C95-AFEF-65FADC3D8DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6D18C0-C15C-4C95-AFEF-65FADC3D8DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F673A268-0EDA-47C7-B77A-7522BC71333B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F673A268-0EDA-47C7-B77A-7522BC71333B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F673A268-0EDA-47C7-B77A-7522BC71333B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F673A268-0EDA-47C7-B77A-7522BC71333B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35856A25-BE6C-4008-A70D-84788E27282B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35856A25-BE6C-4008-A70D-84788E27282B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35856A25-BE6C-4008-A70D-84788E27282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35856A25-BE6C-4008-A70D-84788E27282B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAC80FF-DA9B-4B14-A117-E493B7CA7938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAC80FF-DA9B-4B14-A117-E493B7CA7938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAC80FF-DA9B-4B14-A117-E493B7CA7938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAC80FF-DA9B-4B14-A117-E493B7CA7938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E64CFBBC-BC99-494F-AD1D-A7CDCEEC293C} = {E738C973-7358-41F9-9835-E6F657162E38}
+		{BE6D18C0-C15C-4C95-AFEF-65FADC3D8DC6} = {E738C973-7358-41F9-9835-E6F657162E38}
+		{F673A268-0EDA-47C7-B77A-7522BC71333B} = {B35D2AF3-D72D-4BAC-8F36-A54A1E65525E}
+		{35856A25-BE6C-4008-A70D-84788E27282B} = {B35D2AF3-D72D-4BAC-8F36-A54A1E65525E}
+		{3BAC80FF-DA9B-4B14-A117-E493B7CA7938} = {E738C973-7358-41F9-9835-E6F657162E38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1FE6762-916D-42C3-AA10-747D4D26D2BF}
+	EndGlobalSection
+EndGlobal

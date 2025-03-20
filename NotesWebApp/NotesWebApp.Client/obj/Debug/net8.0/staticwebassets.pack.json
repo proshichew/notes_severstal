@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\124\\source\\repos\\NotesWebApp\\NotesWebApp\\NotesWebApp.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\124\\source\\repos\\NotesWebApp\\NotesWebApp\\NotesWebApp.Client\\obj\\Debug\\net8.0\\compressed\\s5lz0fedr9.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NotesWebApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NotesWebApp.Client.props",
+      "PackagePath": "build\\NotesWebApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NotesWebApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\NotesWebApp.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NotesWebApp.Client.props",
+      "PackagePath": "buildTransitive\\NotesWebApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

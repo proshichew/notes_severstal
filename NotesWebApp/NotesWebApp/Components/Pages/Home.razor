@@ -1,0 +1,141 @@
+﻿@rendermode InteractiveServer
+@page "/"
+@using NotesWebApp.Shared.Models
+@using NotesWebApp.Shared.Services
+@inject NoteService NoteService
+@using BlazorBootstrap
+
+<link href="css/notes.css" rel="stylesheet">
+
+<PageTitle>Notes Web App</PageTitle>
+
+<div class="add-note-form">
+    <h1>Notes</h1>
+    <input @bind="newNoteTitle" placeholder="Title" />
+    <textarea @bind="newNoteContent" placeholder="Content"></textarea>
+    <button @onclick="AddNote">Add Note</button>
+</div>
+
+
+<div class="notes-list">
+    @foreach (var note in notes)
+    {
+        <div class="note-card">
+            @if (note.Id == editingNoteId)
+            {
+                <div class="edit-form">
+                    <input @bind="editNoteTitle" placeholder="Title" />
+                    <textarea @bind="editNoteContent" placeholder="Content"></textarea>
+                    <div class="edit-buttons">
+                        <button class="save" @onclick="SaveEdit">Save</button>
+                        <button class="cancel" @onclick="CancelEdit">Cancel</button>
+                        
+                    </div>
+                </div>
+            }
+            else
+            {
+                <h3 @onclick="() => StartEdit(note)">@note.Title <Icon Name="IconName.Pencil"/></h3>
+                <div class="note-content">                
+                    <Markdown>@note.Content</Markdown>
+                </div>
+                <small>@note.CreatedAt.ToString("yyyy-MM-dd HH:mm")</small>
+                <button @onclick="() => DeleteNote(note.Id)">Delete</button>
+                 <Icon Name="IconName.ArrowUpSquare" @onclick="() => DeleteNote(note.Id)"></Icon> 
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<Note> notes = new();
+    private string newNoteTitle = string.Empty;
+    private string newNoteContent = string.Empty;
+
+    private int? editingNoteId = null;
+    private string editNoteTitle = string.Empty;
+    private string editNoteContent = string.Empty;
+
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadNotes();
+        if (!notes.Any())
+        {
+            newNoteTitle = "Автоматическая заметка";
+            newNoteContent = "**Текст заметки**, *и такой текст заметки*, **и вот такой текст заметки**\n##И вот такой текст заметки\nПростите, не успел добавить изображения.. \n- Чтобы редактировать заметку нажмите на её заголовок \n- Выделение жирным, курсивом, заголовки и т.д. - Через Markdown\n![doggo](Images/doggo.jpg=100) - это моя собачка Боня";
+            await AddNote();
+        }
+
+    }
+
+    private async Task LoadNotes()
+    {
+        var loadedNotes = await NoteService.GetNotesAsync();
+        notes = loadedNotes.OrderBy(n => n.Id).ToList();
+        
+
+    }
+
+    private async Task AddNote()
+    {
+        if (!string.IsNullOrWhiteSpace(newNoteTitle) && !string.IsNullOrWhiteSpace(newNoteContent))
+        {
+            var newNote = new Note
+                {
+                    Title = newNoteTitle,
+                    Content = newNoteContent,
+                    CreatedAt = DateTime.Now
+                };
+
+            await NoteService.AddNoteAsync(newNote);
+            await LoadNotes();
+
+            newNoteTitle = string.Empty;
+            newNoteContent = string.Empty;
+        }
+    }
+
+    private async Task DeleteNote(int id)
+    {
+        await NoteService.DeleteNoteAsync(id);
+        await LoadNotes();
+    }
+
+    private void StartEdit(Note note)
+    {
+        editingNoteId = note.Id;
+        editNoteTitle = note.Title;
+        editNoteContent = note.Content;
+    }
+
+    private async Task SaveEdit()
+    {
+        if (editingNoteId.HasValue)
+        {
+            var noteToUpdate = notes.FirstOrDefault(n => n.Id == editingNoteId.Value);
+            if (noteToUpdate != null)
+            {
+                noteToUpdate.Title = editNoteTitle;
+                noteToUpdate.Content = editNoteContent;
+                await NoteService.UpdateNoteAsync(noteToUpdate);
+
+                var index = notes.FindIndex(n => n.Id == editingNoteId.Value);
+                if (index != -1)
+                {
+                    notes[index] = noteToUpdate;
+                }
+            }
+            CancelEdit();
+        }
+    }
+
+    private void CancelEdit()
+    {
+        editingNoteId = null;
+        editNoteTitle = string.Empty;
+        editNoteContent = string.Empty;
+    }
+}

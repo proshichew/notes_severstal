@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\124\\source\\repos\\NotesWebApp\\NotesWebApp\\NotesWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NotesWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NotesWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\124\\source\\repos\\NotesWebApp\\NotesWebApp\\NotesWebApp\\wwwroot\\Images\\doggo.jpg",
+      "PackagePath": "staticwebassets\\Images\\doggo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\124\\source\\repos\\NotesWebApp\\NotesWebApp\\NotesWebApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\124\\source\\repos\\NotesWebApp\\NotesWebApp\\NotesWebApp\\wwwroot\\css\\notes.css",
+      "PackagePath": "staticwebassets\\css\\notes.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NotesWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NotesWebApp.props",
+      "PackagePath": "build\\NotesWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NotesWebApp.props",
+      "PackagePath": "buildMultiTargeting\\NotesWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NotesWebApp.props",
+      "PackagePath": "buildTransitive\\NotesWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

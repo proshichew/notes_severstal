@@ -1,0 +1,12 @@
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\bin\Debug\net8.0\NotesWebApp.Shared.deps.json
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\bin\Debug\net8.0\NotesWebApp.Shared.dll
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\bin\Debug\net8.0\NotesWebApp.Shared.pdb
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.csproj.AssemblyReference.cache
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.AssemblyInfoInputs.cache
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.AssemblyInfo.cs
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.dll
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\refint\NotesWebApp.Shared.dll
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\NotesWebApp.Shared.pdb
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp.Shared\obj\Debug\net8.0\ref\NotesWebApp.Shared.dll
