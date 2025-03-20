@@ -1,4 +1,4 @@
-##Readme:
+Readme:
 
 - Строка подключения к базе данных и адрес API находятся в **appsettings** в обоих проектах (в первом - строка подключения, во втором - адрес API)
 Стилизация текста заметок реализована при помощи библиотеки BlazorBootstrap, позволяющей пользоваться компонентом Markdown 
@@ -6,6 +6,6 @@
 
 - Стек - C# (Blazor + Entity Framework Core). БД Postgres, запускалась в контейнере Docker. 
 REST API для проекта написан с помощью ASP.NET Core Web API
-К этому файлу прилагается видео Работа_приложения.mp4
+![test](https://github.com/proshichew/notes_severstal/edit/master/proshichew_project.gif)
 
 Надеюсь, Вам понравится)
