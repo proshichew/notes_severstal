@@ -79,3 +79,4 @@ C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp\bin\Debug\net8.0\S
 C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp\bin\Debug\net8.0\DAL.dll
 C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp\bin\Debug\net8.0\DAL.pdb
 C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp\bin\Debug\net8.0\BlazorBootstrap.dll
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp\obj\Debug\net8.0\NotesWebApp.sourcelink.json

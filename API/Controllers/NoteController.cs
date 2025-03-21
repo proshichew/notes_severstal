@@ -124,7 +124,6 @@ namespace API.Controllers
                 return NotFound();
             }
 
-            // Обновляем поля заметки
             note.Title = noteDto.Title;
             note.Content = noteDto.Content;
 

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "NotesWebApp.Client",
   "resources": {
-    "hash": "sha256-iCF8UMq3EPxMGwhOE5HpLaVvj/QmCifZm611kuiXsQY=",
+    "hash": "sha256-LyGTQgLjxECenza68kCc7pFO7pmjslha17S4g3VcAlk=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.dttvpwtuld.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -209,11 +209,11 @@
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
       "NotesWebApp.Shared.wasm": "sha256-EN8EjcdZGBvjNxRQJpTCIEOMCDEdEIarUjODEhQfC5s=",
-      "NotesWebApp.Client.wasm": "sha256-T6+7HwBMO0c5f0g8jUphkuMS/J1vVLEoIgm3TRktdLA="
+      "NotesWebApp.Client.wasm": "sha256-HQe5rHBnR1jPW5ajtjOLOOwUnNFPzQ6X/oD12vEsG1s="
     },
     "pdb": {
       "NotesWebApp.Shared.pdb": "sha256-9iogfX9SxOZBlIt6eYPTRaAvMJco1Nc6MLiZaC3nboE=",
-      "NotesWebApp.Client.pdb": "sha256-58uZqSQovaqnZgJLTicpJ7pMtQljhZDY7hnJIzdpHSo="
+      "NotesWebApp.Client.pdb": "sha256-qW9yfiHlUKuuEKdLih/ygOPd2A5qdAS4hk/m/QqA51Q="
     }
   },
   "cacheBootResources": true,

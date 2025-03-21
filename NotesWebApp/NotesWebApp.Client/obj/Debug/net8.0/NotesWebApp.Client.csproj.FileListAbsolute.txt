@@ -1035,3 +1035,4 @@ C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp.Client\bin\Debug\n
 C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp.Client\obj\Debug\net8.0\webcil\NotesWebApp.Shared.wasm
 C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp.Client\obj\Debug\net8.0\compressed\ht7gkjcj46.gz
 C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp.Client\obj\Debug\net8.0\compressed\vlkg2zeske.gz
+C:\Users\124\source\repos\NotesWebApp\NotesWebApp\NotesWebApp.Client\obj\Debug\net8.0\NotesWebApp.Client.sourcelink.json
